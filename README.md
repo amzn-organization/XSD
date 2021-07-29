@@ -1,9 +1,9 @@
 # Todos os XSDs de documentos
 
 ## XSD de Categorias
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Arts.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Arts.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Baby.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Baby.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Beauty.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Books.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CameraPhoto.xsd
@@ -11,16 +11,16 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Coins.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Collectibles.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Computers.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/EducationSupplies.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/EducationSupplies.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/EntertainmentCollectibles.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/FBA.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FoodAndBeverages.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/FoodServiceAndJanSan.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FoodServiceAndJanSan.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentCenter.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderCancellationRequest.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderRequest.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Furniture.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/GiftCards.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/GiftCards.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Gourmet.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Health.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Home.xsd
@@ -37,7 +37,7 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Listings.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ListingSummary.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Loyalty.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Luggage.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Luggage.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/LuxuryBeauty.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MaterialHandling.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MechanicalFasteners.xsd
@@ -55,7 +55,7 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderFulfillment.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderNotificationReport.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderReport.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Outdoors.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Outdoors.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Override.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/PaymentMethod.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/PetSupplies.xsd
@@ -66,12 +66,12 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProductAttributes.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProductClothing.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProductImage.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/ProfessionalHealthCare.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProfessionalHealthCare.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/RawMaterials.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Relationship.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ReverseFeed.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/SettlementReport.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Shoes.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Shoes.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Sports.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/SportsMemorabilia.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Store.xsd
