@@ -8,15 +8,11 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Books.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CameraPhoto.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CE.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ClothingAccessories.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Coins.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Collectibles.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Computers.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Customer.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CustomerAddress.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/EducationSupplies.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/EntertainmentCollectibles.xsd
-* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/EUCompliance.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/FBA.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FoodAndBeverages.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/FoodServiceAndJanSan.xsd
@@ -94,6 +90,9 @@
 ## XSD de Sub-Categoria
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CatPIL.xsd
 ## XSD de Configurações
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Customer.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CustomerAddress.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/EUCompliance.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/AdditionalProductInformation.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Amazon.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd
