@@ -1,7 +1,7 @@
 # Todos os XSDs de documentos
 
 ## XSD de Categorias
-https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Arts.xsd
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Arts.xsd
 https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd
 https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/Baby.xsd
 https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Beauty.xsd
