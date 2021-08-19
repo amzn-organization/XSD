@@ -98,4 +98,8 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-envelope.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-header.xsd
+<<<<<<< HEAD
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AttributeGroups.xsd
+=======
+* https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AttributeGroups.xsd
+>>>>>>> 9d3c5015be4ce03975890340eb6c8187a68573d2
