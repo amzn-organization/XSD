@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">   
+  <Header>            
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A17COLRYAXOC6T</MerchantIdentifier> <!--Seu ID de vendedor-->
+  </Header>
+  <MessageType>Product</MessageType> <!--O tipo de mensagem, se é Product, ProductImage, Price, etc-->
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>LargeAppliances1 child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <AirConditioner>
+                <AirConditionCoverageCooling>sim</AirConditionCoverageCooling>
+                <AirConditionCoverageHeating>sim</AirConditionCoverageHeating>
+                </AirConditioner>
+            </ProductType>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         
+                      <InstallationType>Split</InstallationType>     
+             <VariationData>
+                    <Parentage>child</Parentage> 
+                    <VariationTheme>Size</VariationTheme> 
+               </VariationData>
+                    <Size>Grande</Size>
+                     <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     
+                      <Warranty>30 dias</Warranty>     
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>2</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>ApplianceAccessory child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <ApplianceAccessory>
+                </ApplianceAccessory>
+            </ProductType>
+                      <InstallationType>Split</InstallationType>    
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>SizeName</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                    <Size>Grande</Size>
+                     <SpecialFeatures>não possui</SpecialFeatures>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message>
+    <Message>
+    <MessageID>3</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>LargeAppliances1 child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <CookingOven>
+                    <FuelType>FuelType</FuelType>
+                </CookingOven>
+            </ProductType>
+                      <ColorMap>blue</ColorMap>
+                      <DisplayVolume unitOfMeasure="liters">12</DisplayVolume>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+   </Message>
+    <Message>
+    <MessageID>4</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>CookTop child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <CookTop>
+                    <FuelType>FuelType</FuelType>
+                    <HeatingElements>4</HeatingElements>
+                </CookTop>
+            </ProductType>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <TemperatureRating>temperatura</TemperatureRating>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+  <Message>
+    <MessageID>5</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>DishWasher child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <Dishwasher>
+                    <FuelType>FuelType</FuelType>
+                    <HeatingElements>4</HeatingElements>
+                </Dishwasher>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+  <Message>
+    <MessageID>6</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>LaundryAppliance child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <LaundryAppliance>
+                    <AccessLocation>Carga Frontal ou Superior</AccessLocation>
+                    <MaxRotationSpeed unitOfMeasure="feet_per_minute">15</MaxRotationSpeed>
+                    <WaterConsumption unitOfMeasure="liters">200</WaterConsumption>
+                </LaundryAppliance>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+                      <MaterialType>Tipo de Material</MaterialType>
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+                      <!--não possui operationmode-->
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+  <Message>
+    <MessageID>7</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>MicrowaveOven child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <MicrowaveOven>
+                </MicrowaveOven>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+  <Message>
+    <MessageID>8</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>Range child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <Range>
+                    <FuelType>FuelType</FuelType>
+                    <HeatingElements>4</HeatingElements>
+                </Range>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+    <Message>
+    <MessageID>9</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>RefrigeratorAppliance child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <RefrigeratorAppliance>
+                    <DefrostSystemType>tipo</DefrostSystemType>
+                    <FreezerCapacity unitOfMeasure="liters">100</FreezerCapacity>
+                    <FreshFoodCapacity unitOfMeasure="liters">50</FreshFoodCapacity>
+                    <IceCapacity unitOfMeasure="liters">1</IceCapacity>
+                </RefrigeratorAppliance>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+                      <Wattage unitOfMeasure="watts">200</Wattage>
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+  <Message>
+    <MessageID>10</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>TrashCompactor child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <TrashCompactor>
+                </TrashCompactor>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+    <Message>
+    <MessageID>11</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>VentHood child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData> <!--Início da categorização--> <!--OBRIGATÓRIO-->
+        <LargeAppliances>
+            <ProductType> <!--Definição mais detalhada da categoria--> <!--OBRIGATÓRIO-->
+                <VentHood>
+                </VentHood>
+            </ProductType>
+                      <Capacity unitOfMeasure="liters">500</Capacity>
+                      <ColorMap>blue</ColorMap>
+                      <EnergyConsumption unitOfMeasure="btu">7.000</EnergyConsumption>         <!--OBRIGATÓRIO-->
+                      <InstallationType>Split</InstallationType>     <!--OBRIGATÓRIO-->
+                      <NoiseLevel unitOfMeasure="dBA">2</NoiseLevel>
+             <VariationData>
+                    <Parentage>child</Parentage>  <!--OBRIGATÓRIO--> <!--Tipo de parentesco-->
+                    <VariationTheme>Size</VariationTheme> <!--OBRIGATÓRIO--><!--Se o produto for variar por Color, o atributo ColorMap deve estar preenchido-->
+               </VariationData>
+                      <Size>Grande</Size>
+                      <SizeMap>G</SizeMap>
+                      <SpecialFeatures>não possui</SpecialFeatures>
+                      <Voltage unitOfMeasure="volts">220</Voltage>     <!--OBRIGATÓRIO-->
+                      <Warranty>30 dias</Warranty>     <!--OBRIGATÓRIO-->
+        </LargeAppliances>
+      </ProductData>
+    </Product>
+  </Message> 
+</AmazonEnvelope>

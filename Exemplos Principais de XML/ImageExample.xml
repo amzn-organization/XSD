@@ -1,0 +1,20 @@
+_POST_PRODUCT_IMAGE_DATA_
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>XXXXXXX</MerchantIdentifier>
+</Header>
+<MessageType>ProductImage</MessageType>
+<Message>
+<MessageID>1</MessageID>
+<OperationType>Update</OperationType>
+<ProductImage>
+<SKU>XXXX</SKU>
+<ImageType>Main</ImageType>         <!--Tipo da imagem aqui--> <!--Swatch, BKLB, PT1 a PT8, Search, PM01, MainOfferImage, OfferImage1 a OfferImage5, PFEE, PFUK, PFDE, PFFR, PFIT, PFES, EEGL, PT98, PT99, ELFL-->
+<ImageLocation>Link da imagem aqui</ImageLocation> 
+</ProductImage>
+</Message>
+</AmazonEnvelope>

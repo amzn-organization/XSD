@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>Clothing AdultCostume child</SKU>
+	   <StandardProductID>
+			<Type>EAN</Type>
+			<Value>7909185784978</Value>  <!--Produtos Filhos possuem identificador único EAN,GTIN,etc-->
+	  </StandardProductID>
+<Condition>
+          <ConditionType>New</ConditionType>
+        </Condition>
+      <DescriptionData>
+        <Title>Clothing Accessory Parent</Title><!--obrigatório-->
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida </Description><!--obrigatório--> <!-- <p>, <br>, <b>, <ul>, <li>-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+    <ItemDimensions>
+          <Length unitOfMeasure="CM">10</Length>
+          <Width unitOfMeasure="CM">20</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2000</Weight><!--obrigatório-->
+        </ItemDimensions>
+    <ShippingWeight unitOfMeasure="KG">2.1</ShippingWeight>   <!--obrigatório caso o Weight não seja enviado-->
+    <MSRP>299</MSRP>  <!--preço sugerido pelo fabricante--> <!--OPCIONAL-->
+    <Manufacturer>Nome do Fabricante</Manufacturer><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode><!--obrigatório--><!--LISTA DE RBNs possíveis para Accessory no arquivo "Mapping" em anexo-->
+    <MerchantShippingGroupName>Modelo Padrão da Amazon</MerchantShippingGroupName> <!--(Nome preenchido dentro do Seller Central)-->
+      </DescriptionData>
+      <ProductData>
+        <Clothing>
+          <VariationData>   <!--é OBRIGATÓRIO A DISPONIBILIZAÇÃO DE VARIAÇÃO PARA OS SELLERS-->
+          <Parentage>child</Parentage>
+          <VariationTheme>SizeColor</VariationTheme>    <!--Confira todas as variações permitidas no XSD Product Clothing--><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL pois pode haver produto sem variação, mas todos que tiverem DEVEM ser enviados como variação e agrupados com o feed de relacionamento-->
+        </VariationData>
+         <ClassificationData>
+                 <Size>Grande</Size>    <!--obrigatório-->
+                 <Color>Azul marinho</Color>     <!--obrigatório-->
+                 <ClothingType>AdultCostume</ClothingType>   <!--obrigatório-->
+                 <Department>mulheres</Department>       <!--obrigatório--> 
+                 <ColorMap>blue</ColorMap>     <!--obrigatório-->    <!--Veja lista de valores válidos na planilha-->
+                 <SizeMap>G</SizeMap>     <!--obrigatório-->  <!--Veja lista de valores válidos na planilha-->
+                 <Theme>tema da fantasia</Theme>  
+        </ClassificationData>
+        </Clothing>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

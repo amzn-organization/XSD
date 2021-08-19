@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>M_SELLER_354577</MerchantIdentifier>
+    </Header>
+    <MessageType>Price</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <Price>
+            <SKU>ASUSVNA1</SKU>
+            <StandardPrice currency="USD">10.99</StandardPrice>
+        </Price>
+    </Message>
+    <Message>
+        <MessageID>2</MessageID>
+        <Price>
+            <SKU>ASUSVNA1669</SKU>
+            <StandardPrice currency="USD">204.99</StandardPrice>
+            <Sale>
+                <StartDate>2008-10-01T00:00:00Z</StartDate>
+                <EndDate>2009-01-31T00:00:00Z</EndDate>
+                <SalePrice currency="USD">28.38</SalePrice>
+            </Sale>
+        </Price>
+    </Message>
+</AmazonEnvelope>

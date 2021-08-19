@@ -1,0 +1,316 @@
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">   
+  <Header>            
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A17COLRYAXOC6T</MerchantIdentifier> <!--Seu ID de vendedor-->
+  </Header>
+  <MessageType>Product</MessageType> <!--O tipo de mensagem, se é Product, ProductImage, Price, etc-->
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <ToysAndGames>
+                    <MaterialType>tipo de material</MaterialType>
+                    <TargetGender>male</TargetGender>
+                </ToysAndGames>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <ColorSpecification>
+              <Color>Multi-colored</Color>
+              <ColorMap>multi-colored</ColorMap>
+            </ColorSpecification>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+          <Message>
+    <MessageID>2</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys2</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <Hobbies>
+                    <SpecificUsesForProduct>uso específico para</SpecificUsesForProduct>
+                    <MaterialType>tipo de material</MaterialType>
+                </Hobbies>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <ColorSpecification>
+              <Color>Multi-colored</Color>
+              <ColorMap>multi-colored</ColorMap>
+            </ColorSpecification>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+    <Message>
+    <MessageID>3</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys3</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <Puzzles>
+                    <MaterialType>tipo de material</MaterialType>
+                    <SkillLevel>Fácil</SkillLevel>
+                </Puzzles>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <NumberOfPieces>200</NumberOfPieces>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+            <Message>
+    <MessageID>4</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys4</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <Games>
+                    <MaterialType>tipo de material</MaterialType>
+                    <SkillLevel>Fácil</SkillLevel>
+                </Games>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <NumberOfPlayers>2</NumberOfPlayers>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+                    <Message>
+    <MessageID>5</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys4</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <ChildrensCostume>
+                    <MaterialType>tipo de material</MaterialType>
+                    <ProductTheme>tema</ProductTheme>
+                </ChildrensCostume>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <ColorSpecification>
+              <Color>Multi-colored</Color>
+              <ColorMap>multi-colored</ColorMap>
+            </ColorSpecification>
+            <NumberOfPlayers>2</NumberOfPlayers>
+            <Size>grande</Size>
+            <SizeMap>G</SizeMap>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+             <Message>
+    <MessageID>6</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>toys6</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898400310835</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Toys>
+              <VariationData>
+                  <Parentage>child</Parentage>
+              </VariationData>
+            <ProductType>
+                <PartySupplies>
+                    <MaterialType>tipo de material</MaterialType>
+                    <WarrantyDescription>1ano</WarrantyDescription>
+                </PartySupplies>
+            </ProductType>
+            <AgeRecommendation>
+                <MinimumManufacturerAgeRecommended unitOfMeasure="years">8</MinimumManufacturerAgeRecommended>
+                <MinimumMerchantAgeRecommended unitOfMeasure="years">8</MinimumMerchantAgeRecommended>
+            </AgeRecommendation>
+            <ColorSpecification>
+              <Color>Multi-colored</Color>
+              <ColorMap>multi-colored</ColorMap>
+            </ColorSpecification>
+            <SubjectCharacter>Batman</SubjectCharacter>
+            </Toys>
+            </ProductData>
+            </Product>
+        </Message>
+</AmazonEnvelope>

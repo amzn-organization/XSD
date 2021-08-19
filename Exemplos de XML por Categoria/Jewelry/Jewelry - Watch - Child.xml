@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>Jewelry Watch child</SKU>
+       <StandardProductID>
+      <Type>EAN</Type>
+      <Value>7896105177050</Value>  <!--Produtos Filhos possuem identificador único EAN,GTIN,etc-->
+    </StandardProductID>
+<Condition>
+<ConditionType>New</ConditionType>
+</Condition>
+      <DescriptionData>
+        <Title>Jewelry Watch child</Title>
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida  </Description>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+    <ItemDimensions>
+          <Length unitOfMeasure="CM">10</Length>
+          <Width unitOfMeasure="CM">20</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2000</Weight>
+        </ItemDimensions>
+    <PackageDimensions>
+          <Length unitOfMeasure="CM">11</Length>
+          <Width unitOfMeasure="CM">21</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2100</Weight>
+        </PackageDimensions>
+    <ShippingWeight unitOfMeasure="KG">2.1</ShippingWeight>   <!--obrigatório-->
+    <MSRP>299</MSRP>  <!--preço sugerido pelo fabricante-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>
+    <MerchantShippingGroupName>Modelo Padrão da Amazon</MerchantShippingGroupName> <!--(Nome preenchido dentro do Seller Central)-->
+      </DescriptionData>
+          <ProductData>
+              <Jewelry>
+                 <ProductType>
+                    <Watch>
+                       <VariationData> <!--é OBRIGATÓRIO A DISPONIBILIZAÇÃO DE VARIAÇÃO PARA OS SELLERS-->
+                          <Parentage>child</Parentage>
+                          <VariationTheme>Color</VariationTheme><!--Confira todas as variações permitidas no XSD Product Clothing--><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL pois pode haver produto sem variação, mas todos que tiverem DEVEM ser enviados como variação e agrupados com o feed de relacionamento-->
+                        <BandColor>pink</BandColor>
+                        <BandMaterial>stainless-steel</BandMaterial>  
+                        <CaseMaterial>stainless-steel</CaseMaterial>      
+                        <CaseSizeDiameter unitOfMeasure="CM">34</CaseSizeDiameter>        
+                        <MovementType>analog-quartz</MovementType>     
+                        <DisplayType>analog</DisplayType>    
+                        <Battery>
+                        <AreBatteriesIncluded>true</AreBatteriesIncluded>  
+                        </Battery>
+                        <DepartmentName>mulheres</DepartmentName><!--obrigatório-->
+                    </Watch>
+                </ProductType>
+                <Color>azul marinho</Color>   <!--obrigatório-->
+                <Size>grande</Size><!--obrigatório-->
+                <SizeMap>G</SizeMap><!--obrigatório-->
+              </Jewelry>
+        </ProductData>
+     </Product>
+  </Message>
+</AmazonEnvelope>
+

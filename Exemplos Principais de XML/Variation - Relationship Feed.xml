@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>M_SELLER_354577</MerchantIdentifier>
+    </Header>
+    <MessageType>Relationship</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <Relationship>
+            <ParentSKU>5555_5556</ParentSKU>
+            <Relation>
+                <SKU>555540352</SKU>
+                <Type>Variation</Type>
+            </Relation>
+            <Relation>
+                <SKU>555685952</SKU>
+                <Type>Variation</Type>
+            </Relation>
+            <Relation>
+                <SKU>555690352</SKU>
+                <Type>Variation</Type>
+            </Relation>
+            <Relation>
+                <SKU>555690552</SKU>
+                <Type>Variation</Type>
+            </Relation>
+            <Relation>
+                <SKU>555690752</SKU>
+                <Type>Variation</Type>
+            </Relation>
+            <Relation>
+                <SKU>555690952</SKU>
+                <Type>Variation</Type>
+            </Relation>
+        </Relationship>
+    </Message>
+</AmazonEnvelope>

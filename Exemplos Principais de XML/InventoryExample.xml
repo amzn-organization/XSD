@@ -1,0 +1,18 @@
+_POST_INVENTORY_AVAILABILITY_DATA_
+
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>XXXXXX</MerchantIdentifier>
+</Header>
+<MessageType>Inventory</MessageType> <!--Feed de estoque-->
+<Message>
+<MessageID>1</MessageID>
+<OperationType>Update</OperationType>
+<Inventory>
+<SKU>XXXX</SKU>            
+<Quantity>1</Quantity>            
+<FulfillmentLatency>1</FulfillmentLatency>  <!--tempo de preparo--> 
+</Inventory>
+</Message>
+</AmazonEnvelope>

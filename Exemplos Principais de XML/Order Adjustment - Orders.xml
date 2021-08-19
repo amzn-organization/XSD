@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>My Store</MerchantIdentifier>
+    </Header>
+    <MessageType>OrderAdjustment</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OrderAdjustment>
+            <MerchantOrderID>1234567</MerchantOrderID>
+            <AdjustedItem>
+                <MerchantOrderItemID>1234567</MerchantOrderItemID>
+                <MerchantAdjustmentItemID>12345</MerchantAdjustmentItemID>
+                <AdjustmentReason>CustomerReturn</AdjustmentReason>
+                <ItemPriceAdjustments>
+                    <Component>
+                        <Type>Principal</Type>
+                        <Amount currency="USD">10.00</Amount>
+                    </Component>
+                    <Component>
+                        <Type>Shipping</Type>
+                        <Amount currency="USD">3.49</Amount>
+                    </Component>
+                    <Component>
+                        <Type>Tax</Type>
+                        <Amount currency="USD">1.29</Amount>
+                    </Component>
+                    <Component>
+                        <Type>Shipping Tax</Type>
+                        <Amount currency="USD">0.24</Amount>
+                    </Component>
+                </ItemPriceAdjustments>
+            </AdjustedItem>
+        </OrderAdjustment>
+    </Message>
+    <Message>
+        <MessageID>2</MessageID>
+        <OrderAdjustment>
+            <MerchantOrderID>2345678</MerchantOrderID>
+            <AdjustedItem>
+                <MerchantOrderItemID>2345678</MerchantOrderItemID>
+                <MerchantAdjustmentItemID>23456</MerchantAdjustmentItemID>
+                <AdjustmentReason>CustomerReturn</AdjustmentReason>
+                <ItemPriceAdjustments>
+                    <Component>
+                        <Type>Principal</Type>
+                        <Amount currency="USD">10.00</Amount>
+                    </Component>
+                    <Component>
+                        <Type>Tax</Type>
+                        <Amount currency="USD">1.29</Amount>
+                    </Component>
+                </ItemPriceAdjustments>
+                <PromotionAdjustments>
+                    <PromotionClaimCode>ABC123</PromotionClaimCode>
+                    <MerchantPromotionID>12345678</MerchantPromotionID>
+                    <Component>
+                        <Type>Principal</Type>
+                        <Amount currency="USD">-1.00</Amount>
+                    </Component>
+                </PromotionAdjustments>
+            </AdjustedItem>
+        </OrderAdjustment>
+    </Message>
+</AmazonEnvelope>

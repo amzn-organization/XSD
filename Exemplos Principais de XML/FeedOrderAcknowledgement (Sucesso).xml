@@ -1,0 +1,17 @@
+<!--Feed utilizado para informar à Amazon que a sua integração recebeu este pedido com sucesso ou falha (status Failure cancela o pedido por completo, para cancelamentos parciais - apenas alguns SKUs - utilize o feed de adjustment)-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>SEUID DE VENDEDOR</MerchantIdentifier>
+</Header>
+<MessageType>OrderAcknowledgement</MessageType>
+<Message>
+<MessageID>1</MessageID>
+<OrderAcknowledgement>
+<AmazonOrderID>701-7542679-4976261</AmazonOrderID> <!--ID do pedido a ser informado, para cada pedido uma mensagem diferente-->
+<StatusCode>Success</StatusCode>  <!--Confirma o recebimento do pedido para a Amazon-->
+</OrderAcknowledgement>
+</Message>
+</AmazonEnvelope>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>Clothing Underwear Parent</SKU>
+     <Condition>
+          <ConditionType>New</ConditionType>
+        </Condition>
+      <DescriptionData>
+        <Title>Clothing Accessory Parent</Title><!--obrigatório-->
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida </Description><!--obrigatório--> <!-- <p>, <br>, <b>, <ul>, <li>-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint> <!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+    <Manufacturer>Nome do Fabricante</Manufacturer><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>
+      </DescriptionData>
+      <ProductData>
+        <Clothing>
+          <VariationData>   <!--é OBRIGATÓRIO A DISPONIBILIZAÇÃO DE VARIAÇÃO PARA OS SELLERS-->
+          <Parentage>parent</Parentage>
+          <VariationTheme>SizeColor</VariationTheme>    <!--Confira todas as variações permitidas no XSD Product Clothing--><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL pois pode haver produto sem variação, mas todos que tiverem DEVEM ser enviados como variação e agrupados com o feed de relacionamento-->
+        </VariationData>
+        </Clothing>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>XXXXXXX</MerchantIdentifier>
+</Header>
+<MessageType>Price</MessageType>  <!--caracteriza ser um feed de preço-->
+<Message>
+<MessageID>1</MessageID>
+<Price xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SKU>5000</SKU>
+  <StandardPrice currency="BRL">XX.XX</StandardPrice>    <!--preço-->
+  <MinimumSellerAllowedPrice currency="BRL">XX.XX</MinimumSellerAllowedPrice> <!--preço mínimo permitido pelo seller / para erros de digitação-->
+  <MinimumSellerAllowedPrice currency="BRL">XX.XX</MinimumSellerAllowedPrice> <!--preço máximo permitido pelo seller / para erros de digitação-->
+  <Sale>       <!--Preço promocional-->
+    <StartDate>2017-06-23T12:13:39.4025125-03:00</StartDate>     <!--início da promoção-->
+    <EndDate>2017-08-23T12:13:39.4030124-03:00</EndDate>   <!--final da promoção-->
+    <SalePrice currency="BRL">XX.XX</SalePrice>    <!--valor do preço promocional-->
+  </Sale>        <!-- Toda promoção deve ter data de início e fim-->
+</Price>
+</Message>
+</AmazonEnvelope> 

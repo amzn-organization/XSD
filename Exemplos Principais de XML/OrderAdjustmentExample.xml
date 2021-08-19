@@ -1,0 +1,38 @@
+
+<?xml version="1.0" ?> 
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+ <Header>
+          <DocumentVersion>1.01</DocumentVersion>
+                   <MerchantIdentifier>A39GPJMSLSZE0K</MerchantIdentifier>
+                    </Header>
+                     <MessageType>OrderAdjustment</MessageType>
+                      <Message>
+                               <MessageID>1</MessageID>
+                                     <OrderAdjustment>
+                                            <AmazonOrderID>111-3777416-2802659</AmazonOrderID>
+                                               <ActionType>Refund</ActionType>  <!--Refund ou Cancel-->
+                                                 <AdjustedItem>
+                                                   <AmazonOrderItemCode>15948849061490</AmazonOrderItemCode>  
+                                                   <AdjustmentReason>CustomerReturn</AdjustmentReason> <!--NoInventory, CustomerReturn, GeneralAdjustment, CouldNotShip, DifferentItem, Abandoned, CustomerCancel, PriceError, ProductOutofStock, 														CustomerAddressIncorrect, Exchange, Other, CarrierCreditDecision, RiskAssessmentInformationNotValid, CarrierCoverageFailure, 																	TransactionRecord, Undeliverable, RefusedDelivery-->
+                                                   <ItemPriceAdjustments>
+                                                   		<Component>
+	                                                   		<Type>Principal</Type> <!--Shipping, Tax, ShippingTax, RestockingFee, RestockingFeeTax, GiftWrap, GiftWrapTax, Surcharge, ReturnShipping, Goodwill, ExportCharge, COD, CODTax, Other, 							FreeReplacementReturnShipping-->
+	                                                        <Amount currency="BRL">86.87</Amount>
+                                                        </Component> 					
+                                                        <Component> 						
+                                                        	<Type>Shipping</Type> 						
+                                                        	<Amount currency="BRL">0.00</Amount>
+                                                        </Component> 					
+                                                        <Component> 						
+                                                        	<Type>Tax</Type> 						
+                                                        	<Amount currency="BRL">0.00</Amount> 					
+                                                        </Component> 					
+                                                        <Component> 						
+                                                        	<Type>ShippingTax</Type> 						
+                                                        	<Amount currency="BRL">0.00</Amount> 					
+                                                        </Component> 				
+                                                    </ItemPriceAdjustments>            
+                                                </AdjustedItem>         
+                                            </OrderAdjustment> 
+                                        </Message> 
+                                    </AmazonEnvelope>  

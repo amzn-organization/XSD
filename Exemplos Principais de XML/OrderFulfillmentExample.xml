@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<AmazonEnvelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+<Header>
+<DocumentVersion>1.01</DocumentVersion>
+<MerchantIdentifier>SEUIDDEVENDEDOR</MerchantIdentifier>
+</Header>
+<MessageType>OrderFulfillment</MessageType>
+<Message>
+<MessageID>1</MessageID>
+<OrderFulfillment>
+<AmazonOrderID>701-3200034-3860004</AmazonOrderID>
+<FulfillmentDate>2018-02-22T03:00:00</FulfillmentDate>
+<FulfillmentData>
+<CarrierName>Correios</CarrierName>
+<ShippingMethod>PAC</ShippingMethod>
+<ShipperTrackingNumber>RE782796579BR</ShipperTrackingNumber>
+</FulfillmentData>
+<Item>
+<AmazonOrderItemCode>09572975858330</AmazonOrderItemCode>
+<Quantity>1</Quantity>
+</Item>
+</OrderFulfillment>
+</Message>
+</AmazonEnvelope>

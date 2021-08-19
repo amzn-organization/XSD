@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+<Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--para atualizacao de apenas um atributo, para matching sem sobrescrever informações enviadas anteriormente utilize a operationType "PartialUpdate"-->
+    <Product>
+      <SKU>Outdoors CampingEquipment child</SKU> <!--obrigatório-->
+      <StandardProductID>
+      <Type>EAN</Type> <!--Pode ser UPC, GTIN, JAN...-->
+      <Value>7898912222015</Value>  <!--Produtos Filhos possuem identificador único EAN,GTIN,etc-->
+    </StandardProductID>                <!--Para sellers que forem aprovados para isenção de EAN, a tag <StandardProductID> e todo seu conteúdo deve ser removida-->
+<Condition>
+<ConditionType>New</ConditionType>
+</Condition>
+      <DescriptionData>
+        <Title>Sports GolfClubIron child</Title><!--obrigatório-->
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida</Description> <!--só liberamos tags html : p, b, br, ul, li SEM STYLE-->
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+    <ItemDimensions>
+          <Length unitOfMeasure="CM">10</Length>
+          <Width unitOfMeasure="CM">20</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2000</Weight>
+        </ItemDimensions>
+    <PackageDimensions>
+          <Length unitOfMeasure="CM">11</Length>
+          <Width unitOfMeasure="CM">21</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2100</Weight>
+        </PackageDimensions>
+    <ShippingWeight unitOfMeasure="KG">2.1</ShippingWeight>   <!--obrigatório para ser calculado o frete-->
+    <MSRP>299</MSRP>  <!--preço sugerido pelo fabricante-->
+    <Manufacturer>Nome do Fabricante</Manufacturer><!--obrigatório-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber><!--obrigatório para categorias diferentes de Clothing e Shoes pois nosso sistema valida junto com alguns EANs e para produtos sem EAN-->
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>
+    <MerchantShippingGroupName>Modelo Padrão da Amazon</MerchantShippingGroupName> <!--(Nome preenchido dentro do Seller Central)-->
+      </DescriptionData>
+      <ProductData><!--obrigatório-->
+        <Sports>
+          <ProductType>SportingGoods</ProductType>
+          <VariationData>
+            <Parentage>child</Parentage>
+            <VariationTheme>ColorSize</VariationTheme>
+            <Color>Charcoal</Color>
+            <Size>X Small</Size>
+          </VariationData>
+          <ColorMap>multi-colored</ColorMap>
+          <SizeMap>XXX-Large</SizeMap>
+        </Sports>
+	  </ProductData>
+   </Product>
+  </Message>
+</AmazonEnvelope>
+
+<!--LISTA DE RBNs possíveis para SportingGoods-->  
+<!--
+17685335011	br-fashion:/Categorias/Homens/Roupas/Esportivas/Belts
+17682387011	br-fashion:/Categorias/Feminino/Roupas/Gestantes/Esportes
+
+-->

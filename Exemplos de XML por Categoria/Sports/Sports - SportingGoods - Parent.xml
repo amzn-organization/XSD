@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+<Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--para atualizacao de apenas um atributo, para matching sem sobrescrever informações enviadas anteriormente utilize a operationType "PartialUpdate"-->
+    <Product>
+      <SKU>Outdoors CampingEquipment child</SKU> <!--obrigatório-->
+<Condition>
+<ConditionType>New</ConditionType>
+</Condition>
+      <DescriptionData>
+        <Title>Sports GolfClubIron child</Title><!--obrigatório-->
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida</Description> <!--só liberamos tags html : p, b, br, ul, li SEM STYLE-->
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+    <ItemDimensions>
+          <Length unitOfMeasure="CM">10</Length>
+          <Width unitOfMeasure="CM">20</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2000</Weight>
+        </ItemDimensions>
+    <PackageDimensions>
+          <Length unitOfMeasure="CM">11</Length>
+          <Width unitOfMeasure="CM">21</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2100</Weight>
+        </PackageDimensions>
+    <ShippingWeight unitOfMeasure="KG">2.1</ShippingWeight>   <!--obrigatório para ser calculado o frete-->
+    <MSRP>299</MSRP>  <!--preço sugerido pelo fabricante-->
+    <Manufacturer>Nome do Fabricante</Manufacturer><!--obrigatório-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber><!--obrigatório para categorias diferentes de Clothing e Shoes pois nosso sistema valida junto com alguns EANs e para produtos sem EAN-->
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>
+    <MerchantShippingGroupName>Modelo Padrão da Amazon</MerchantShippingGroupName> <!--(Nome preenchido dentro do Seller Central)-->
+      </DescriptionData>
+      <ProductData><!--obrigatório-->
+			<Sports>
+					<ProductType>SportingGoods</ProductType><!--obrigatório-->
+						<VariationData>
+							<Parentage>parent</Parentage><!--obrigatório-->
+							<VariationTheme>Size</VariationTheme><!--obrigatório--> <!--VERIFIQUE VALORES NA PLANILHA-->
+						</VariationData>
+			</Sports>
+	  </ProductData>
+   </Product>
+  </Message>
+</AmazonEnvelope>

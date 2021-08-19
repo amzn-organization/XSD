@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">   
+  <Header>            
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A17COLRYAXOC6T</MerchantIdentifier> <!--Seu ID de vendedor-->
+  </Header>
+  <MessageType>Product</MessageType> <!--O tipo de mensagem, se é Product, ProductImage, Price, etc-->
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>BabyFood NO VAR</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>      <!--OBRIGATÓRIO - exceto para os casos que possuem isenção de EAN --> 
+          <Value>7896255527101</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO-->  <!-- A Brand tem que ser a mesma para o produto pai e os filhos-->
+        <Description>Descriçao com alguns tipos de html permitida  </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>19596154011</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+        <ProductData>
+            <FoodAndBeverages>
+                <ProductType>
+                    <BabyFood>
+                        <NutritionalFactsGroup>
+                            <AllergenInformation>soy</AllergenInformation> <!--IMPORTANTE informações sobre produtos que provocam reaçoes alergicas no alimento-->
+                        </NutritionalFactsGroup>
+                    </BabyFood>
+                </ProductType>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

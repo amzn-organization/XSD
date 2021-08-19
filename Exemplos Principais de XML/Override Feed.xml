@@ -1,0 +1,31 @@
+<AmazonEnvelope xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.02</DocumentVersion>
+        <MerchantIdentifier>M_SELLER_354577</MerchantIdentifier>
+    </Header>
+    <MessageType>Override</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <Override>
+            <SKU>487-6</SKU>
+            <ShippingOverride>
+                <ShipOption>Std Alaska Hawaii PO Box</ShipOption>
+                <IsShippingRestricted>true</IsShippingRestricted>
+            </ShippingOverride>
+        </Override>
+    </Message>
+    <Message>
+        <MessageID>2</MessageID>
+        <OperationType>Update</OperationType>
+        <Override>
+            <SKU>487-5</SKU>
+            <ShippingOverride>
+                <ShipOption>Exp Alaska Hawaii PO Box</ShipOption>
+                <IsShippingRestricted>false</IsShippingRestricted>
+                <Type>Additive</Type>
+                <ShipAmouunt currency="USD">20.00</ShipAmouunt>
+            </ShippingOverride>
+        </Override>
+    </Message>
+</AmazonEnvelope>

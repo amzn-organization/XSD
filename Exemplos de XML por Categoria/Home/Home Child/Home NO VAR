@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">   
+  <Header>            
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A17COLRYAXOC6T</MerchantIdentifier> <!--Seu ID de vendedor-->
+  </Header>
+  <MessageType>Product</MessageType> <!--O tipo de mensagem, se é Product, ProductImage, Price, etc-->
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>FurnitureAndDecor child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <FurnitureAndDecor>
+                      <ColorMap>white</ColorMap>
+                      <Material>Material</Material>
+                      <Shape>Shape</Shape>
+                          <OccasionType>Ocasião</OccasionType>
+                          <FrameMaterialType>Frame material</FrameMaterialType>
+                  </FurnitureAndDecor>
+              </ProductType>
+            <Parentage>child</Parentage>
+                          <PatternName>estampa</PatternName>
+                          <SpecialFeatures>funções especiais</SpecialFeatures>
+                          <StyleName>Nome do estilo</StyleName>
+                          <NumberOfPieces>12</NumberOfPieces>          
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+ <Message>
+    <MessageID>2</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>Mattress child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Mattress>
+                      <ColorMap>white</ColorMap>
+                      <Material>Material</Material>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                  </Mattress>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+   <Message>
+    <MessageID>3</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>Bed child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Bed>
+                      <ColorMap>white</ColorMap>  
+                      <Material>Material</Material>  
+                        <FrameMaterialType>Frame</FrameMaterialType>
+                  </Bed>
+              </ProductType>
+            <Parentage>child</Parentage>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>4</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>Bed child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <HeadBoard>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                  </HeadBoard>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+            <NumberOfPieces>12</NumberOfPieces>  
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+    <Message>
+    <MessageID>5</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>DRESSER child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Dresser>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                       <FrameMaterialType>Frame material</FrameMaterialType>
+                  </Dresser>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+            <NumberOfPieces>12</NumberOfPieces>  
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+      <Message>
+    <MessageID>6</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>CABINET child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Cabinet>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                       <FrameMaterialType>Frame material</FrameMaterialType>
+                  </Cabinet>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+    <MessageID>8</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>CHAIR child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Chair>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                  </Chair>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+<Message>
+    <MessageID>9</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>TABLE child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Table>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                  </Table>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+            <NumberOfPieces>12</NumberOfPieces>      
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+<Message>
+    <MessageID>10</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>BENCH child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898212041132</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Bench>
+                      <ColorMap>white</ColorMap>
+                      <Shape>Shape</Shape>
+                        <BaseMaterialType>material base</BaseMaterialType>
+                  </Bench>
+              </ProductType>
+            <Parentage>child</Parentage>
+            <SpecialFeatures>funções especiais</SpecialFeatures>
+            <StyleName>Style</StyleName>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+    <Message>
+    <MessageID>11</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>SOFA child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Sofa>
+                      <ColorMap>white</ColorMap>
+                      <Material>Material</Material>
+                      <Shape>Shape</Shape>
+                          <FrameMaterialType>Frame material</FrameMaterialType>
+                  </Sofa>
+              </ProductType>
+            <Parentage>child</Parentage>
+                          <SpecialFeatures>funções especiais</SpecialFeatures>
+                          <StyleName>Nome do estilo</StyleName>
+                          <NumberOfPieces>12</NumberOfPieces>        
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+      <Message>
+    <MessageID>12</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>DESK child</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7896945424147</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+          <Home>
+              <ProductType>
+                  <Desk>
+                      <ColorMap>white</ColorMap>
+                      <Material>Material</Material>
+                      <Shape>Shape</Shape>
+                  </Desk>
+              </ProductType>
+            <Parentage>child</Parentage>
+                          <SpecialFeatures>funções especiais</SpecialFeatures>
+                          <StyleName>Nome do estilo</StyleName>
+          </Home>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

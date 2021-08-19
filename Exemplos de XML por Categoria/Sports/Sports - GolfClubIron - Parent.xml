@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>SEUID</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>Sports GolfClubIron Parent</SKU>
+     <Condition>
+<ConditionType>New</ConditionType>
+</Condition>
+      <DescriptionData>
+        <Title>Sports GolfClubIron child</Title>
+        <Brand>MARCA</Brand> <!--obrigatório-->
+        <Description>Descriçao com htlm permitida  </Description>
+        <BulletPoint>Um bulletpoint</BulletPoint><!--obrigatório SER DISPONIBILIZADO PARA O SELLER, mas o preenchimento pelo seller é OPCIONAL-->
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+        <BulletPoint>Um bulletpoint</BulletPoint>
+    <ItemDimensions>
+          <Length unitOfMeasure="CM">10</Length>
+          <Width unitOfMeasure="CM">20</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2000</Weight>
+        </ItemDimensions>
+    <PackageDimensions>
+          <Length unitOfMeasure="CM">11</Length>
+          <Width unitOfMeasure="CM">21</Width>
+          <Height unitOfMeasure="CM">20</Height>
+          <Weight unitOfMeasure="GR">2100</Weight>
+        </PackageDimensions>
+    <ShippingWeight unitOfMeasure="KG">2.1</ShippingWeight>   <!--obrigatório-->
+    <MSRP>299</MSRP>  <!--preço sugerido pelo fabricante-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>
+    <MerchantShippingGroupName>Modelo Padrão da Amazon</MerchantShippingGroupName> <!--(Nome preenchido dentro do Seller Central)-->
+      </DescriptionData>
+      <ProductData>
+			<Sports>
+					<ProductType>GolfClubIron</ProductType>
+						<VariationData>
+							<Parentage>parent</Parentage>
+							<VariationTheme>Size</VariationTheme>
+							<Size>G</Size>
+						</VariationData>
+			</Sports>
+	  </ProductData>
+   </Product>
+  </Message>
+</AmazonEnvelope>
+
+<!--LISTA DE RBNs possíveis para GolfClubIron-->  
+<!--
+AINDA NÃO DISPONÍVEL - NÃO DEVEM SER CRIADOS PRODUTOS NESTA CATEGORIA ATÉ QUE COMPARTILHEMOS AS POSSIBILIDADE DE RecommendedBrowseNode
+-->

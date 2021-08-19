@@ -1,0 +1,222 @@
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amznenvelope.xsd">   
+  <Header>            
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A17COLRYAXOC6T</MerchantIdentifier> <!--Seu ID de vendedor-->
+  </Header>
+  <MessageType>Product</MessageType> <!--O tipo de mensagem, se é Product, ProductImage, Price, etc-->
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>health1</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898932706038</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+  <Health>
+    <ProductType>
+      <HealthMisc>
+      <VariationData>
+          <Parentage>child</Parentage>
+          <VariationTheme>Color</VariationTheme>
+          <Color>Azul</Color> 
+          <ColorMap>blue</ColorMap>
+      </VariationData>      
+          <UnitCount unitOfMeasure="Count">2</UnitCount>
+          <DisplayVolume unitOfMeasure="liters">0.2</DisplayVolume>
+          <SkinType>tipo</SkinType>
+          <SkinTone>tom</SkinTone>
+          <Ingredients>Ingredients and Ingredients</Ingredients>
+          <Warnings>Warnings</Warnings>
+          <ItemForm>ItemForm</ItemForm>
+          <SpecialFeatures>SpecialFeatures</SpecialFeatures>
+          <SunProtection unitOfMeasure="sun_protection_factor">30</SunProtection>
+          <TargetGender>male</TargetGender>
+          <LegalComplianceCertificationStatus1>Compliant</LegalComplianceCertificationStatus1>
+          <LegalComplianceCertificationMetadata1>anvisa</LegalComplianceCertificationMetadata1>
+      </HealthMisc>
+    </ProductType>
+    <SpecificUsesForProduct>SpecificUsesForProduct</SpecificUsesForProduct>
+    </Health>
+  </ProductData>
+</Product>
+</Message>
+  <Message>
+    <MessageID>2</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>health2</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898932706038</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+  <Health>
+    <ProductType>
+      <PersonalCareAppliances>
+      <VariationData>
+          <Parentage>child</Parentage>
+          <VariationTheme>Color</VariationTheme>
+          <Size>Azul</Size> 
+          <SizeMap>blue</SizeMap>
+          <Color>Azul</Color> 
+          <ColorMap>blue</ColorMap>
+      </VariationData>      
+          <UnitCount unitOfMeasure="Count">2</UnitCount>
+          <HairType>HairType</HairType>
+          <MaterialType>MaterialType</MaterialType>
+          <SpecialFeatures>SpecialFeatures</SpecialFeatures>
+          <LegalComplianceCertificationStatus1>Compliant</LegalComplianceCertificationStatus1>
+          <LegalComplianceCertificationMetadata1>anvisa</LegalComplianceCertificationMetadata1>
+      </PersonalCareAppliances>
+    </ProductType>
+    <Wattage unitOfMeasure="watts">50</Wattage>
+    </Health>
+  </ProductData>
+</Product>
+</Message>
+  <Message>
+    <MessageID>3</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>health3</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898932706038</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+  <Health>
+    <ProductType>
+      <SexualWelness>
+      <VariationData>
+          <Parentage>child</Parentage>
+          <VariationTheme>Color</VariationTheme>
+          <Color>Azul</Color> 
+          <ColorMap>blue</ColorMap>
+      </VariationData>      
+          <UnitCount unitOfMeasure="Count">2</UnitCount>
+          <ItemForm>ItemForm</ItemForm>
+          <SpecialFeatures>SpecialFeatures</SpecialFeatures>
+          <TargetGender>male</TargetGender>
+          <LegalComplianceCertificationStatus1>Compliant</LegalComplianceCertificationStatus1>
+          <LegalComplianceCertificationMetadata1>anvisa</LegalComplianceCertificationMetadata1>
+      </SexualWelness>
+    </ProductType>
+    <SpecificUsesForProduct>SpecificUsesForProduct</SpecificUsesForProduct>
+    </Health>
+  </ProductData>
+</Product>
+</Message>
+  <Message>
+    <MessageID>4</MessageID>
+    <OperationType>Update</OperationType> <!--Verifique as opções : Update , PartialUpdate (para atualizaçãoes de apenas atributos especificados sem sobrescrever o que foi anteriormente enviado), Delete (Apagar produtos)-->
+    <Product>
+      <SKU>health4</SKU> <!--OBRIGATÓRIO--> 
+      <StandardProductID>
+          <Type>EAN</Type>
+          <Value>7898932706038</Value>
+      </StandardProductID>
+        <Condition>
+          <ConditionType>New</ConditionType>  <!--OBRIGATÓRIO-->  <!--Condição do item :New, Used-->
+        </Condition>
+          <ItemPackageQuantity>1</ItemPackageQuantity>
+      <DescriptionData>   <!--Sessão onde se inicia a descrição do item-->
+        <Title>Título</Title> <!--OBRIGATÓRIO--> <!--Título do Produto-->
+        <Brand>MARCA</Brand> <!--OBRIGATÓRIO--> 
+        <Designer>Designer</Designer> 
+        <Description>Descriçao com htlm permitida </Description> <!--OBRIGATÓRIO-->  <!-- Aceitamos <p>, <br>, <b>, <ul>, <li> SEM Style / Máx caracteres: 2.000-->
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Breves descrições do produto-->
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint> 
+        <BulletPoint>Um bulletpoint</BulletPoint>   <!--Limite de até 5 bulletpoints - 500 caracteres po bulletpoint-->
+    <Manufacturer>Nome do Fabricante</Manufacturer>    <!--OBRIGATÓRIO-->
+    <MfrPartNumber>Número fornecido pelo Fabricante</MfrPartNumber>    <!--OBRIGATÓRIO-->
+    <IsDiscontinuedByManufacturer>true</IsDiscontinuedByManufacturer>
+    <RecommendedBrowseNode>44512563212</RecommendedBrowseNode>      <!--OBRIGATÓRIO--> <!--Guia de estrutura de navegação - Confira mapeamento entre ProductType e RecommendedBrowseNode-->
+      </DescriptionData>
+      <ProductData>
+  <Health>
+    <ProductType>
+      <SexualWellness>
+      <VariationData>
+          <Parentage>child</Parentage>
+          <VariationTheme>Color</VariationTheme>
+          <Color>Azul</Color> 
+          <ColorMap>blue</ColorMap>
+      </VariationData>      
+          <ItemForm>ItemForm</ItemForm>
+          <TargetGender>male</TargetGender>
+          <UnitCount unitOfMeasure="Count">2</UnitCount> 
+          <Ingredients>Ingredients</Ingredients>
+          <ExternalTestingCertification>anvisa</ExternalTestingCertification>
+          <ExternalTestingCertification>anp</ExternalTestingCertification>
+          <SpecialFeatures>SpecialFeatures</SpecialFeatures>
+          <LegalComplianceCertificationStatus1>Compliant</LegalComplianceCertificationStatus1>
+          <LegalComplianceCertificationMetadata1>anvisa</LegalComplianceCertificationMetadata1>
+      </SexualWellness>
+    </ProductType>
+    <SpecificUsesForProduct>SpecificUsesForProduct</SpecificUsesForProduct>
+    </Health>
+  </ProductData>
+</Product>
+</Message>
+</AmazonEnvelope>
