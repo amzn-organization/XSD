@@ -1,10 +1,10 @@
+<h1 align="center"> 
+	🚧 Referências XSDs 🚧
+</h1>
 <h1 align="center">
     <img alt="Referências XSDs" title="#ReferênciasXSDs" src="./assets/banner-xsd.png" />
 </h1>
 
-<h4 align="center"> 
-	🚧 Referências XSDs 🚧
-</h4>
 
 ## Documentação Oficial Selling Partner
 * [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
