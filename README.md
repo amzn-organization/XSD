@@ -17,7 +17,6 @@
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/SWVG.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/WineAndAlcohol.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Wireless.xsd
-## XSD de Sub-Categoria
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CatPIL.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/LuxuryBeauty.xsd
 * https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MaterialHandling.xsd
