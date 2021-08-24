@@ -7,7 +7,7 @@
 
 
 ## Documentação Oficial Selling Partner
-* [Documentação Oficial](https://amazon-br-dx.readme.io/reference/bem-vindo) 
+* **[Documentação Oficial](https://amazon-br-dx.readme.io/reference/bem-vindo)**
 
 ## Guia de uso do XSD e XML
 * [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
