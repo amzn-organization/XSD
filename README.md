@@ -7,15 +7,16 @@
 
 
 ## Documentação Oficial Selling Partner
-* [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
-https://amazon-br-dx.readme.io/reference/bem-vindo
+* [Documentação Oficial](https://amazon-br-dx.readme.io/reference/bem-vindo) 
 
 ## Guia de uso do XSD e XML
 * [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
+
 ## XSD Schema
 * [amzn-base.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd)
 * [amzn-envelope.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-envelope.xsd)
 * [amzn-header.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-header.xsd)
+
 ## XSD de Categorias
 * [Arts.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Arts.xsd)
 * [AutoAccessory.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd)
