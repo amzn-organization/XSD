@@ -6,7 +6,7 @@
 </h1>
 
 <h1 align="center">
-    [Documentação Oficial](https://amazon-br-dx.readme.io/reference/bem-vindo)
+    <a href="https://amazon-br-dx.readme.io/reference/bem-vindo">Documentação Oficial</a>
 </h1>
 
 ## Guia de uso do XSD e XML
