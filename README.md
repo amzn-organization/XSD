@@ -96,5 +96,5 @@
 * [ReverseFeed.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ReverseFeed.xsd)
 * [SettlementReport.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/SettlementReport.xsd)
 * [Store.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Store.xsd)
-* [TestOrderRequest.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_7/TestOrderRequest.xsd)
+* [TestOrderRequest.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/TestOrderRequest.xsd)
 * [Tools.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Tools.xsd)
