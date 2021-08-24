@@ -58,7 +58,6 @@
 ## XSD de Configurações
 * [amzn-base.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd)
 * [amzn-envelope.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-envelope.xsd)
-
 * [Amazon.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Amazon.xsd)
 * [AdditionalProductInformation.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/AdditionalProductInformation.xsd)
 * [AttributeGroups.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AttributeGroups.xsd)
