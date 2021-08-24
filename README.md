@@ -1,7 +1,7 @@
 # Referências XSDs
 
 ## Guia de uso do XSD e XML
-* [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
+* <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf" target="_blank">Guia XSD</a>
 ## XSD Schema
 * [amzn-base.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd)
 * [amzn-envelope.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-envelope.xsd)
