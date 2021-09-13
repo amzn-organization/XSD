@@ -12,12 +12,12 @@
 ## Guia de uso do XSD e XML
 * [Guia XSD](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf) 
 
-## XSD Schema
+## XSDs Schema
 * [amzn-base.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-base.xsd)
 * [amzn-envelope.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-envelope.xsd)
 * [amzn-header.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/amzn-header.xsd)
 
-## XSD de Categorias
+## XSDs para categorias
 * [Arts.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Arts.xsd)
 * [AutoAccessory.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd)
 * [Baby.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Baby.xsd)
@@ -71,7 +71,7 @@
 * [WebstoreItem.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/WebstoreItem.xsd)
 * [WineAndAlcohol.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/WineAndAlcohol.xsd)
 * [Wireless.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Wireless.xsd)
-## XSD de Configurações
+## XSDs para configurações
 * [Amazon.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Amazon.xsd)
 * [AdditionalProductInformation.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/AdditionalProductInformation.xsd)
 * [AttributeGroups.xsd](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AttributeGroups.xsd)
